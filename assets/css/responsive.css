@@ -1,0 +1,184 @@
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+.mainmenu-area ul.nav.navbar-nav li {
+    margin-left: 30px;
+}
+.sin-portfolio-icon {
+    top: 15%;
+}
+.single-portfolio:hover .sin-portfolio-icon {
+    top: 25%;
+}
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+.mainmenu-area ul.nav.navbar-nav li {
+    margin-left: 25px;
+}
+.mainmenu-area ul.nav.navbar-nav li a {
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.slider-area {
+    height: 580px;
+}
+.slider-area h1 {
+    font-size: 50px;
+}    
+.about-photo h3 {
+    font-size: 20px;
+}
+.about-photo p {
+    font-size: 14px;
+}
+.single-skill {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.single-work-process {
+    padding: 30px 0;
+}
+.portfolio-menu button {
+    margin-right: 10px;
+    padding-left: 20px;
+}    
+.single-portfolio:hover .sin-portfolio-icon {
+    top: 35%;
+}
+.cta-area h1 {
+    font-size: 28px;
+}
+.single-testimonial i.fa {
+    margin: 30px 15px;
+}
+    
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+body {
+    font-size: 14px;
+    line-height: 25px;
+}
+.neon-content-block {
+    padding: 70px 0;
+}
+.neon-section-title {
+    margin-bottom: 75px;
+}
+.neon-section-title h2 {
+    font-size: 22px;
+    margin: 0;
+}
+.section-underline {
+    top: 45px;
+}
+.header-top-area {
+    display: none;
+}
+.mainmenu-area .navbar-header .navbar-brand {
+    margin-left: 15px;
+}
+.mainmenu-area .navbar-header .navbar-toggle {
+    background: #3a7cec none repeat scroll 0 0;
+    margin: 0;
+    right: 15px;
+    top: 15px;
+}
+.mainmenu-area .navbar-header .navbar-toggle .icon-bar {
+    background: #fff none repeat scroll 0 0;
+}
+.mainmenu-area .navbar-collapse {
+    border-top: 1px solid #ddd;
+}
+.mainmenu-area ul.nav.navbar-nav li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mainmenu-area ul.nav.navbar-nav li a {
+    padding: 18px 0;
+}
+.slider-area {
+    height: 550px;
+    text-align: center;
+}
+.slider-area h2 {
+    font-size: 25px;
+}
+.slider-area h1 {
+    font-size: 40px;
+}
+.neon-btn.slider-btn-1 {
+    margin: 0 10px 20px;
+}
+.neon-btn.slider-btn-2 {
+    margin: 0 10px;
+}
+.total-about-area {
+    text-align: center;
+}
+.about-photo {
+    margin-top: 50px;
+}
+.about-photo h3 {
+    font-size: 20px;
+}
+.about-photo p {
+    font-size: 14px;
+}
+.single-skill {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.single-skill p {
+    text-align: left;
+}
+.work-process-area {
+    padding-top: 70px;
+}
+.single-work-process {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 30px 0;
+}
+.portfolio-menu button {
+    margin-right: 10px;
+    padding-left: 20px;
+}    
+.single-portfolio:hover .sin-portfolio-icon {
+    top: 35%;
+}
+.cta-area, .text-right {
+    text-align: center;
+}
+.cta-area h1 {
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.single-testimonial i.fa {
+    margin: 30px 15px;
+}
+.total-testimonial .owl-nav div {
+    top: 35%;
+}
+.contact-form {
+    margin-top: 70px;
+}
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    .container, .container-fluid {
+        width: 450px;
+        margin: 0 auto;
+    }    
+    
+}
